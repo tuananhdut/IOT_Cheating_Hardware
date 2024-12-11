@@ -1,0 +1,6 @@
+*mp4
+__pycache__
+env
+*.env
+sourceTest 
+preview_tflite.ipynb
