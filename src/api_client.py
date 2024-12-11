@@ -61,16 +61,3 @@ async def send_video_request(path, action_id):
     except Exception as e:
         return f"Error: {str(e)}"
 
-# async def main():
-#     camera_data = await fetch_camera_register_data()
-#     print(camera_data)
-    
-#     # report = await fetch_detection_report("camera123", "2024-11-01", "2024-11-02", "high")
-#     # print(report)
-    
-#     # video_response = await send_video_request("./test.mp4", "3e20dc25-751d-4951-b265-f1907ccf6b2e")
-#     # print(video_response)
-
-# # Chạy asyncio event loop
-# if __name__ == "__main__":
-#     asyncio.run(main())

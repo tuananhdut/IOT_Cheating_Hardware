@@ -1,7 +1,6 @@
 from config import CAMERAID, update_env_variable
 from api_client import fetch_camera_register_data
 import asyncio 
-# import streamer
 import streamAndDetectCheating
 
 async def main():
